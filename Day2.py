@@ -15,3 +15,16 @@ print(type(e))
 print(type(f))
 print(type(g))
 print(type(h))
+
+# String
+str1 = "Hello \"World\"!"
+
+print(str1)
+
+# message body using multiline string
+message = """Hello User,
+Welcome to the Python programming world.    
+Have a great day!
+"""
+
+print(message)
