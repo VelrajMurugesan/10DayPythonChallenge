@@ -16,12 +16,3 @@ if score > 60:
 else:
     print("Fail")
 
- # Expression
- #
-fName = "Velraj"
-lName = "Murugesan"
-fullname_old = fName + " " + lName
-print(fullname_old)
-# any expression can be used inside {} like 2 + 2, len(fName) and so on...
-fullName = f"{fName} {lName}"
-print(fullName)
