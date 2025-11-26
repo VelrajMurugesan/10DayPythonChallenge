@@ -18,5 +18,9 @@ for text in country.values():
 
 name: list[str] = ['Velraj', 'Murugesan', 'Kumar']
 age: list[int] = [25, 30, 35]
-person_dict: dict[str, int] = dict(zip(name, age))
-print(person_dict)
+for i in range(len(name)):
+    person_dict: dict[str, int] = {name[i]: age[i]}
+    print(person_dict)
+
+""" person_dict: dict[str, int] = dict(zip(name, age))
+print(person_dict) """
